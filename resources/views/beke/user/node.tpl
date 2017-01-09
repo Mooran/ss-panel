@@ -23,11 +23,12 @@
                 </div>
             </div>
         </div>
-
+        <div class="row">
         {foreach $nodes as $node}
-            <div class="row">
+
+            <div class="col-md-6">
                 <div class="col-md-12">
-                    <div class="box box-widget">
+                    <div class="box box-primary">
                         <div class="box-body">
                             <ul class="products-list product-list-in-box">
                                 <li class="item">
@@ -82,10 +83,12 @@
                     </div><!-- /.widget-user -->
                 </div><!-- /.col -->
             </div>
-            <!-- /.row -->
 
 
         {/foreach}
+        </div>
+        <!-- /.row -->
+
     </section>
     <!-- /.content -->
 </div><!-- /.content-wrapper -->
